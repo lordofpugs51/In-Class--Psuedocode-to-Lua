@@ -21,7 +21,10 @@ while playAgain == "Y" do
     end
 
     --print out rendom number
-    
+    compNum = math.random(1, maxNum)
+    print("the computer picked the random number: ".. compNum)
+    maxNum = nil
+    compNum = nil
     --ask if they want to play again
     print("Press Y for another number, any other key to exit: ")
     playAgain = io.read()
@@ -31,3 +34,4 @@ while playAgain == "Y" do
         playAgain = "Y"
     end
 end
+print("thanks for playing; Goodbye.")
