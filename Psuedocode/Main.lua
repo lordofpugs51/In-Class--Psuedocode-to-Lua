@@ -5,4 +5,6 @@ require("TwoNumberTogether")
 --printTwoNumSum()
 ------------------------------------------
 require("ManyNumberTogether")
-printUserSum()
+--printUserSum()
+------------------------------------------
+require("RandomNumber1-Max")
